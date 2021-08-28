@@ -32,3 +32,18 @@ From one image you can create multiple containers (all running the sample applic
 A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. 
 You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
 
+## Docker Commands
+
+* Run a command in a new container
+```
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+```
+Example
+```
+docker run -it --name ubuntu_cont ubuntu:latest bash
+```
+
+* Start one or more stopped containers in detached mode
+```
+docker start [OPTIONS] CONTAINER [CONTAINER...]
+```
