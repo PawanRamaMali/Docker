@@ -62,3 +62,15 @@ Example
 docker ps -a
 ```
 
+* List of docker images
+```
+docker images [OPTIONS] [REPOSITORY[:TAG]]
+```
+Docker image has intermediate layers that increase reusability, decrease disk usage and speed up docker build by allowing each step to be cached! these intermediate layers are not shown by default.
+
+Example
+```
+docker images -a
+```
+
+
