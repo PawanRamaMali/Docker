@@ -104,3 +104,22 @@ Example
 ```
 docker exec -it 120 bash
 ```
+
+* Copy files/folders between a container and the local filesystem
+```
+docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
+docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
+```
+Example
+```
+docker cp /file_from_host my_cnt:/dir_in_cnt/
+```
+
+* Remove one or more containers
+```
+docker rm [OPTIONS] CONTAINER [CONTAINER...]
+```
+Example
+```
+docker rm cont_name
+```
