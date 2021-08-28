@@ -6,9 +6,15 @@ Docker Course Contents for my students
 
 It is a set of platform as a service (PaaS) products that uses OS-level virtualization to deliver software in packages called containers which helps developers,system admins to develop, deploy and run applications.
 
-## Docker Image File
+## Docker file
 
-A Docker image is a file containing everything needed to run an application as a container. This includes:
+Docker image file is contains a set of instructions used to create docker containers.
+
+Docker image is created using a docker image file.
+
+## Docker Image 
+
+A Docker image contains everything needed to run an application as a container. This includes:
 
 * Code
 * Libraries
