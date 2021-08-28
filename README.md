@@ -73,4 +73,34 @@ Example
 docker images -a
 ```
 
+* Stop one or more running container
+```
+docker stop [OPTIONS] CONTAINER [CONTAINER...]
+```
+Example
+```
+docker stop -t 100 cont_name
+```
 
+* Kill one or more running containers
+```
+docker kill [OPTIONS] CONTAINER [CONTAINER...]
+```
+Example
+```
+docker kill cae
+```
+
+* Run a command in a running container
+```
+dockr exec [OPTIONS] CONTAINER [ARGS...]
+```
+COMMAND should be an executable, a chained or a quoted command will not work. 
+Example:
+`docker exec -ti my_container "echo a && echo b" `will not work, but
+`docker exec -ti my_container sh -c "echo a && echo b"` will.
+
+Example
+```
+docker exec -it 120 bash
+```
