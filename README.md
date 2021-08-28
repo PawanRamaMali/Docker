@@ -34,7 +34,7 @@ You can connect a container to one or more networks, attach storage to it, or ev
 
 ## Docker Commands
 
-* Run a command in a new container
+* Run docker in a new container
 ```
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
