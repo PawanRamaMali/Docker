@@ -47,3 +47,18 @@ docker run -it --name ubuntu_cont ubuntu:latest bash
 ```
 docker start [OPTIONS] CONTAINER [CONTAINER...]
 ```
+
+Example
+```
+docker start -i ca12345
+```
+
+* List of containers
+```
+docker ps [OPTIONS]
+```
+Example
+```
+docker ps -a
+```
+
